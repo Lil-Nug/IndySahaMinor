@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Indy</title>
+    <title>Flappy Indy!</title>
   </head>
+
   <body>
-    <img src="pic.jpeg" />
-    <img src="pic2.png">
-    <img src="pic3.jpg">
-    </iframe>
+    <div class="background">
+      <img src="pic6.jpg" style="opacity: 0.7; height: 100%; width: 100%" />
+      <canvas id="myCanvas" width="28vw"></canvas>
+    </div>
+    <img class="bird" src="pic4.png" alt="bird-img" />
+    <div class="message">Press Enter To Start Indy</div>
+    <div class="score">
+      <span class="score_title"></span>
+      <span class="score_val"></span>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
